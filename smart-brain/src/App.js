@@ -77,7 +77,7 @@ class App extends Component {
         })
             .then(response => response.json())
             .then(response => {
-                if (response) { // 如果有回应，再更改计数
+                if (response.outputs[0].data.regions[0].region_info.bounding_box) { // 如果有回应(并且是结果)，再更改计数
                     fetch('http://localhost:3000/image', {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
