@@ -1,2 +1,2 @@
 # SmartBrain
-A ReactJS + NodeJS + mySql web project
+A ReactJS + NodeJS + PostgreSql web project
