@@ -178,18 +178,18 @@
       <updated>1523295800135</updated>
       <workItem from="1523295803162" duration="14367000" />
       <workItem from="1523401884063" duration="4680000" />
-      <workItem from="1523412219452" duration="8375000" />
+      <workItem from="1523412219452" duration="8667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27422000" />
+    <option name="totallyTimeSpent" value="27714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="914" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25054705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17890625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
