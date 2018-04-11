@@ -68,7 +68,7 @@ class App extends Component {
     };
     onButtonSubmit = () => {
         this.setState({imageUrl: this.state.input});
-        fetch('http://localhost:3000/imageurl', { // 图像url传给后端
+        fetch('https://polar-badlands-93394.herokuapp.com/imageurl', { // 图像url传给后端
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -78,7 +78,7 @@ class App extends Component {
             .then(response => response.json())
             .then(response => {
                 if (response.outputs[0].data.regions[0].region_info.bounding_box) { // 如果有回应(并且是结果)，再更改计数
-                    fetch('http://localhost:3000/image', {
+                    fetch('https://polar-badlands-93394.herokuapp.com/image', {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({ // image方法用来更新用户使用次数，只需要用户id
