@@ -1,2 +1,2 @@
-# SmartBrain
-A ReactJS + NodeJS + PostgreSql web project
+# Online Image Recognition
+A website used third party API to recognize items in image
